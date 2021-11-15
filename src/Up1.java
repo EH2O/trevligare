@@ -9,7 +9,7 @@ public class Up1 {
         int pos = 0;
         int x = 0;
         int y = 0;
-        for(int i = 0; i <= N; i++){
+        for(int i = 0; i < N; i++){
 
             if('a' == n.charAt(pos)){
                 x = x-1;
